@@ -1,4 +1,4 @@
-import type Banner from "@/components/shared/Banner";
+import type Banner from "@/components/homePage/Banner";
 import React from "react";
 
 const HomePage = () => {

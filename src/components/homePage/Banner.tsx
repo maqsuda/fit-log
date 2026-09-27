@@ -2,8 +2,8 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="w-7xl mx-auto mt-10 flex justify-between items-center px-10 ">
-      <div className="">
+    <div className="w-7xl mx-auto mt-10 py-10 flex justify-between items-center bg-base-300 rounded-lg">
+      <div className="ml-20">
         <h3 className="text-xl text-[#C2F800]">WORKOUT LIBRARY</h3>
         <h1 className="text-6xl font-bold mt-5">
           TRAIN WITH INTENT. LOG<br></br> EVERY SET.
@@ -16,7 +16,7 @@ const Banner = () => {
           BROWSE WORKOUTS
         </button>
       </div>
-      <div>
+      <div className="mr-20">
         <img src="/banner.png" className="mt-5"></img>
       </div>
     </div>
